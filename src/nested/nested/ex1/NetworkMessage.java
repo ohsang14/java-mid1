@@ -1,7 +1,8 @@
 package nested.nested.ex1;
 
-public class NetworkMessage {
-    private String content;
+public class NetworkMessage { ;
+
+    private String content  ;
 
     public NetworkMessage(String content) {
         this.content = content;
@@ -9,5 +10,4 @@ public class NetworkMessage {
     public void print(){
         System.out.println(content);
     }
-
 }
