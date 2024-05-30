@@ -22,8 +22,6 @@ public class Car {
     }
 
     public class Engine {
-
-
         public void start() {
             System.out.println("충전 레벨 확인: " + chargeLevel);
             System.out.println(model + "의 엔진을 구동합니다.");
