@@ -3,22 +3,23 @@ package nested.local;
 public class LocalOuterV1 {
     private int outInstanceVar = 3;
 
-    public void process(int paramVar){
-
+    public void process(int paraVar) {
         int localVar = 1;
 
-        class LocalPrinter{
+
+        class LocalPrinter {
             int value = 0;
 
-            public void printData(){
-                System.out.println("value =" + value);
-                System.out.println("localVar=" + localVar);
-                System.out.println("paramVar=" + paramVar);
-                System.out.println("outInstanceVar=" + outInstanceVar);
+            public void printData() {
+                System.out.println("value= " + value);
+                System.out.println("localVar= " + localVar);
+                System.out.println("pramVar = " + paraVar);
+                System.out.println("outInstanceVar = " + outInstanceVar);
             }
         }
         LocalPrinter printer = new LocalPrinter();
         printer.printData();
+
     }
 
     public static void main(String[] args) {
