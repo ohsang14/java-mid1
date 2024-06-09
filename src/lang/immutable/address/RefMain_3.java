@@ -13,8 +13,8 @@ public class RefMain_3 {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
     }
-    private static void change(Address address , String changeAddress){
-        System.out.println("주소 값을 변경합니다 "  +  changeAddress);
-        address.setValue(changeAddress);
+   private static void change(Address address , String changeAddress){
+       System.out.println("주소 값을 변경합니다 --> " + changeAddress);
+       address.setValue(changeAddress);
     }
 }
