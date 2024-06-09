@@ -3,7 +3,6 @@ package lang.immutable.address;
 public class ImmutableAddress { // 불변 객체
     private final String value;
 
-
     public ImmutableAddress(String value) {
         this.value = value;
     }
