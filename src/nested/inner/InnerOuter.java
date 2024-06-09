@@ -1,7 +1,5 @@
 package nested.inner;
 
-import lang.address.PrimitiveMain;
-
 public class InnerOuter {
 
     private static int outClassValue = 3;

@@ -1,4 +1,4 @@
-package lang.address;
+package lang.immutable.address;
 
 public class MemberMainV2 {
     public static void main(String[] args) {

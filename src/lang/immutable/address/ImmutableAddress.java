@@ -1,4 +1,4 @@
-package lang.address;
+package lang.immutable.address;
 
 public class ImmutableAddress { // 불변 객체
     private final String value;
