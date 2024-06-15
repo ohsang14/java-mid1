@@ -10,6 +10,6 @@ public class StringConcatMain {
 
         System.out.println("result1 = " + result1);
         System.out.println("result2 = " + result2);
-        
+
     }
 }
