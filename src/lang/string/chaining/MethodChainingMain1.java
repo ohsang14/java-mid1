@@ -8,6 +8,6 @@ public class MethodChainingMain1 {
         adder.add(3);
 
         int result = adder.getValue();
-        System.out.println("result: "+result);
+        System.out.println("result = "+result);
     }
 }
