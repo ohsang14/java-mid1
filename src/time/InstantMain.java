@@ -3,6 +3,7 @@ package time;
 import java.time.Instant;
 import java.time.ZonedDateTime;
 
+// 기계 중심의 시간 - Instant
 public class InstantMain {
     public static void main(String[] args) {
         // 생성
