@@ -2,7 +2,10 @@ package lang.string.test;
 
 public class TestString7 {
     public static void main(String[] args) {
-        String original ="     Hello Java   ";
-        System.out.println(original.trim());
+        String original = "     Hello Java    ";
+        // 코드작성
+
+        String trimmed = original.trim();
+        System.out.println(trimmed);
     }
 }

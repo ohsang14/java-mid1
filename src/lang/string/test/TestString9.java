@@ -1,14 +1,15 @@
 package lang.string.test;
 
-public class SpringTest9 {
+public class TestString9 {
     public static void main(String[] args) {
         String email = "hello@example.com";
+        // 코드 작성
 
-        String[] parts = email.split("@");
+        String [] parts = email.split("@");
         String idPart = parts[0];
         String domainPart = parts[1];
 
-        System.out.println(idPart);
-        System.out.println(domainPart);
+        System.out.println("ID = " + idPart);
+        System.out.println("Domain: " + domainPart);
     }
 }
