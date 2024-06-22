@@ -5,12 +5,14 @@ import java.time.LocalDate;
 public class LocalDateMain {
     public static void main(String[] args) {
         LocalDate nowDate = LocalDate.now();
-        LocalDate ofDate = LocalDate.of(2013,11,11);
-        System.out.println("오늘 날짜: " + nowDate);
-        System.out.println("지정 날짜: " + ofDate);
+        LocalDate ofDate = LocalDate.of(2013, 11, 21);
+        System.out.println("오늘 날짜 = " + nowDate);
+        System.out.println("지정 날짜 = " + ofDate);
 
-        // 계산 (불변)
+
+        // 계산 (불변) , 모든 날짜 클래스는 불변. 새로운 객체를 생성해서 반환해야함.
         ofDate = ofDate.plusDays(10);
-        System.out.println("저정 날짜 + 10d : " + ofDate );
+        System.out.println("지정 날짜 + 10d = " + ofDate);
+
     }
 }
