@@ -8,5 +8,6 @@ public class NestedOuterMain {
 
         System.out.println("nestedClass = " + nested.getClass());
 
+        // 정적 중첩 클래스는 다른 클레스를 중첩해둔것임.
     }
 }
