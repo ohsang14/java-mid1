@@ -6,7 +6,7 @@ public class Network {
         NetworkMessage networkMessage = new NetworkMessage(text);
         networkMessage.print();
     }
-
+     // static 추가, private로 막음
     private static class NetworkMessage {
         private String content;
 
