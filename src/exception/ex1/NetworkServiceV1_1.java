@@ -6,7 +6,7 @@ public class NetworkServiceV1_1 {
     public void sendMessage(String data){
         String address = "http://exmaple.com";
         NetworkClientV1 client = new NetworkClientV1(address);
-        client.initError(data);// 추가
+        client.initError(data); // 추가
 
         client.connect();
         client.send(data);
