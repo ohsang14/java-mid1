@@ -1,7 +1,7 @@
 package exception.basic.unchecked;
 
 public class Client {
-    public void call() {
+    public void call() throws MyUncheckedException{
         throw new MyUncheckedException("ex");
     }
 }
