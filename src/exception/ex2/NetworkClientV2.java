@@ -11,9 +11,8 @@ public class NetworkClientV2 {
 
     public void connect() throws NetworkClientExceptionV2 {
         if (connectError) {
-            throw new NetworkClientExceptionV2("connectError", address + "서버 연결 실패");
+            throw new NetworkClientExceptionV2("connetError", address + "서버 연결 실패");
         }
-
         // 연결 성공
         System.out.println(address + " 서버 연결 성공 ");
     }
@@ -21,8 +20,9 @@ public class NetworkClientV2 {
     public void send(String data) throws NetworkClientExceptionV2 {
         if (sendError) {
             throw new NetworkClientExceptionV2("sendError", address + " 서버에 데이터 전송 실패: " + data);
+            // 중간에 다른 예외가 발생했다고 가정
+//            throw new  RuntimeException("ex");
         }
-
         // 전송 성공
         System.out.println(address + " 서버에 데이터 전송:" + data);
     }
