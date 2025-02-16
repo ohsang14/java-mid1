@@ -10,14 +10,12 @@ public class NetworkServiceV2_2 {
         try {
             client.connect();
         } catch (NetworkClientExceptionV2 e) {
-            System.out.println("[오류] 코드: " + e.getErrorCode() + ", 메세지 : " + e.getMessage());
             return;
         }
 
         try {
             client.send(data);
         } catch (NetworkClientExceptionV2 e) {
-            System.out.println("[오류] 코드: " + e.getErrorCode() + ", 메세지 : " + e.getMessage());
         }
 
         client.disconnect();
